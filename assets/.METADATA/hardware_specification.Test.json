@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "name": "Test",
+    "description": "",
+    "origin_country": "US",
+    "tags": [
+      "dsx"
+    ],
+    "asset_type": "hardware_specification",
+    "rov": {
+      "mode": 0
+    },
+    "asset_category": "USER",
+    "created_at": "2023-01-21T20:02:40Z",
+    "created": 1674331360375,
+    "asset_id": "hardware_specification.Test",
+    "asset_attributes": [
+      "hardware_specification"
+    ]
+  },
+  "entity": {
+    "hardware_specification": {
+      "spark": {
+        "driver": {
+          "cpu": {
+            "units": "2",
+            "model": ""
+          },
+          "mem": {
+            "size": "4g"
+          }
+        },
+        "executor": {
+          "cpu": {
+            "units": "2",
+            "model": ""
+          },
+          "mem": {
+            "size": "4g"
+          }
+        },
+        "num_drivers": 1,
+        "num_executors": 2
+      }
+    }
+  },
+  "attachments": []
+}

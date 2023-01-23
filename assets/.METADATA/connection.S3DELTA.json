@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "asset_type": "connection",
+    "name": "S3_DELTA",
+    "origin_country": "us",
+    "rov": {
+      "mode": 0
+    },
+    "resource_key": "0000:0000:0000:0000:0000:FFFF:34DB:8C57|443|deltatestluis",
+    "asset_category": "USER",
+    "created_at": "2023-01-23T21:33:53Z",
+    "created": 1674509633961,
+    "asset_id": "connection.S3DELTA",
+    "asset_attributes": [
+      "connection"
+    ]
+  },
+  "entity": {
+    "connection": {
+      "datasource_type": "a0b1d14a-4767-404c-aac1-4ce0e62818c3",
+      "context": "source,target",
+      "properties": {},
+      "flags": [
+        "personal_credentials"
+      ],
+      "ref_catalog_id": "abcff4aa-405f-4233-8ce8-92bb53a2b32e",
+      "ref_asset_id": "2db7e1e3-ca01-49d5-916f-1e298e710464"
+    }
+  },
+  "attachments": []
+}

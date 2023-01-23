@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "name": "customer_shaped",
+    "asset_type": "data_asset",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "owner_id": "1000330999",
+    "created_at": "2023-01-23T21:48:08Z",
+    "created": 1674510488262,
+    "asset_id": "data_asset.customershaped",
+    "asset_attributes": [
+      "data_asset"
+    ]
+  },
+  "entity": {
+    "data_asset": {
+      "mime_type": "text/csv",
+      "dataset": true,
+      "properties": [
+        {
+          "name": "file_format",
+          "value": "csv"
+        },
+        {
+          "name": "first_line_header",
+          "value": "true"
+        }
+      ]
+    }
+  },
+  "attachments": [
+    {
+      "asset_type": "data_asset",
+      "name": "customer_shaped",
+      "object_key": "data_asset/customer_shaped-jyrg",
+      "mime": "text/csv",
+      "object_key_is_read_only": false,
+      "created_at": "2023-01-23T21:48:08Z",
+      "id": "381fc1cd-3aee-4c87-941a-6a22351cc01d",
+      "is_managed": false,
+      "is_referenced": true,
+      "is_remote": false
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "name": "customer",
+    "asset_type": "data_asset",
+    "description": null,
+    "origin_country": "none",
+    "tags": [
+      "connected-data"
+    ],
+    "asset_category": "USER",
+    "created_at": "2023-01-23T21:39:18Z",
+    "created": 1674509958814,
+    "asset_id": "data_asset.customer",
+    "asset_attributes": [
+      "data_asset"
+    ]
+  },
+  "entity": {
+    "data_asset": {
+      "dataset": true,
+      "mime_type": "application/octet-stream",
+      "columns": [
+        {
+          "name": "CUSTOMER_ID",
+          "type": {
+            "type": "integer",
+            "length": -1,
+            "scale": 0,
+            "nullable": true,
+            "signed": true
+          }
+        },
+        {
+          "name": "LOYALTY_NBR",
+          "type": {
+            "type": "integer",
+            "length": -1,
+            "scale": 0,
+            "nullable": true,
+            "signed": true
+          }
+        },
+        {
+          "name": "FIRST_NAME",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "LAST_NAME",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "CUSTOMER_NAME",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "COUNTRY",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "STATE_NAME",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "STATE_CODE",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "CITY",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "LATITUDE",
+          "type": {
+            "type": "decimal",
+            "length": 14,
+            "scale": 6,
+            "nullable": true,
+            "signed": true
+          }
+        },
+        {
+          "name": "LONGITUDE",
+          "type": {
+            "type": "decimal",
+            "length": 15,
+            "scale": 6,
+            "nullable": true,
+            "signed": true
+          }
+        },
+        {
+          "name": "POSTAL_CODE",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "GENDER",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "EDUCATION",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "LOCATION_CODE",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        },
+        {
+          "name": "INCOME",
+          "type": {
+            "type": "integer",
+            "length": -1,
+            "scale": 0,
+            "nullable": true,
+            "signed": true
+          }
+        },
+        {
+          "name": "MARITAL_STATUS",
+          "type": {
+            "type": "varchar",
+            "length": 1024,
+            "scale": 0,
+            "nullable": true,
+            "signed": false
+          }
+        }
+      ]
+    }
+  },
+  "attachments": [
+    {
+      "asset_type": "data_asset",
+      "name": "customer",
+      "description": "remote",
+      "connection_id": "connection.S3DELTA",
+      "connection_path": "/deltatestluis/customer",
+      "is_partitioned": true,
+      "mime": "application/octet-stream",
+      "created_at": "2023-01-23T21:39:18Z",
+      "id": "dbdbc539-dec7-454f-9cd4-a553a38d7384",
+      "is_managed": false,
+      "is_referenced": false,
+      "is_remote": true
+    }
+  ]
+}
